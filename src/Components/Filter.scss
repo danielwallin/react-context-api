@@ -1,0 +1,19 @@
+.filter {
+    position: relative;
+    border-top: 1px solid var(--c_primary);
+    border-bottom: 1px solid var(--c_primary);
+    select {
+        padding: 1.5rem var(--p_small);
+        -webkit-appearance: none;
+        border: 0;
+        width: 100%;
+        background: transparent;
+        cursor: pointer;
+    }
+    ion-icon {
+        position: absolute;
+        right: var(--p_small);
+        transform: translateY(-50%);
+        top: 50%;
+    }
+}

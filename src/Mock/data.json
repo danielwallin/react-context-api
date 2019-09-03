@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Sax & Fön",
+    "price": 300,
+    "reviews": 32,
+    "mn": 30,
+    "score": 4,
+    "time": {
+      "closing": "19.00",
+      "opening": "12.00"
+    },
+    "location": "Rådmansgatan 46",
+    "zipCode": "113 57",
+    "website": "www.google.se",
+    "tel": "08-52238920",
+    "img": "https://images.squarespace-cdn.com/content/v1/54076841e4b0e514253e3826/1540397213485-J5WS4IUKC3W4MJU27JCY/ke17ZwdGBToddI8pDm48kFyD7pzB8zoMIVY5aiUuFlp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jG2lbcDYBOeMi4OFSYem8DMb5PTLoEDdB05UqhYu-xbnSznFxIRsaAU-3g5IaylIg/sds-6+small+size+copy.jpeg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam odio aliquam nisi sunt maxime ut, nostrum natus architecto ipsa assumenda voluptas dolor molestiae eos veniam nihil suscipit! Nam, minus hic?"
+  },
+  {
+    "id": 2,
+    "title": "Hårizont",
+    "price": 320,
+    "reviews": 32,
+    "mn": 30,
+    "score": 3,
+    "time": {
+      "closing": "19.00",
+      "opening": "12.00"
+    },
+    "location": "Rådmansgatan 46",
+    "zipCode": "113 57",
+    "website": "www.google.se",
+    "tel": "08-52238920",
+    "img": "https://images.squarespace-cdn.com/content/v1/532660b6e4b06743408113ce/1508215174567-403FAI8V2H9OM1AWW5EK/ke17ZwdGBToddI8pDm48kC0hl51BGjBfHbArR6eMtrAUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc5xwxoSU1oAsUI1VMH8gQrbc6_HmbKVZnfTL-YccttXh78YgbxILzuNksEPeZ3BL_/1_lookingin.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam odio aliquam nisi sunt maxime ut, nostrum natus architecto ipsa assumenda voluptas dolor molestiae eos veniam nihil suscipit! Nam, minus hic?"
+  },
+  {
+    "id": 3,
+    "title": "Hårhuset",
+    "price": 600,
+    "reviews": 32,
+    "mn": 30,
+    "score": 5,
+    "time": {
+      "closing": "19.00",
+      "opening": "12.00"
+    },
+    "location": "Rådmansgatan 46",
+    "zipCode": "113 57",
+    "website": "www.google.se",
+    "tel": "08-52238920",
+    "img": "https://images.squarespace-cdn.com/content/v1/54076841e4b0e514253e3826/1540397213485-J5WS4IUKC3W4MJU27JCY/ke17ZwdGBToddI8pDm48kFyD7pzB8zoMIVY5aiUuFlp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jG2lbcDYBOeMi4OFSYem8DMb5PTLoEDdB05UqhYu-xbnSznFxIRsaAU-3g5IaylIg/sds-6+small+size+copy.jpeg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam odio aliquam nisi sunt maxime ut, nostrum natus architecto ipsa assumenda voluptas dolor molestiae eos veniam nihil suscipit! Nam, minus hic?"
+  },
+  {
+    "id": 4,
+    "title": "Hair & Nu",
+    "price": 200,
+    "reviews": 32,
+    "mn": 30,
+    "score": 2,
+    "time": {
+      "closing": "19.00",
+      "opening": "12.00"
+    },
+    "location": "Rådmansgatan 46",
+    "zipCode": "113 57",
+    "website": "www.google.se",
+    "tel": "08-52238920",
+    "img": "https://images.squarespace-cdn.com/content/v1/532660b6e4b06743408113ce/1508215174567-403FAI8V2H9OM1AWW5EK/ke17ZwdGBToddI8pDm48kC0hl51BGjBfHbArR6eMtrAUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc5xwxoSU1oAsUI1VMH8gQrbc6_HmbKVZnfTL-YccttXh78YgbxILzuNksEPeZ3BL_/1_lookingin.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam odio aliquam nisi sunt maxime ut, nostrum natus architecto ipsa assumenda voluptas dolor molestiae eos veniam nihil suscipit! Nam, minus hic?"
+  },
+  {
+    "id": 5,
+    "title": "Hårley Davidson",
+    "price": 150,
+    "reviews": 32,
+    "mn": 30,
+    "score": 4,
+    "time": {
+      "closing": "19.00",
+      "opening": "12.00"
+    },
+    "location": "Rådmansgatan 46",
+    "zipCode": "113 57",
+    "website": "www.google.se",
+    "tel": "08-52238920",
+    "img": "https://images.squarespace-cdn.com/content/v1/54076841e4b0e514253e3826/1540397213485-J5WS4IUKC3W4MJU27JCY/ke17ZwdGBToddI8pDm48kFyD7pzB8zoMIVY5aiUuFlp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jG2lbcDYBOeMi4OFSYem8DMb5PTLoEDdB05UqhYu-xbnSznFxIRsaAU-3g5IaylIg/sds-6+small+size+copy.jpeg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam odio aliquam nisi sunt maxime ut, nostrum natus architecto ipsa assumenda voluptas dolor molestiae eos veniam nihil suscipit! Nam, minus hic?"
+  }
+]
