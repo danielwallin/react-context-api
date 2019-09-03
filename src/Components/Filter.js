@@ -11,21 +11,21 @@ const options = [
     },
   },
   {
-    label: '0-100',
+    label: 'Pris 0 - 100 kr',
     value: {
       high: 100,
       low: 0,
     },
   },
   {
-    label: '100-250',
+    label: 'Pris 100 - 250 kr',
     value: {
       high: 250,
       low: 100,
     },
   },
   {
-    label: '250-400',
+    label: 'Pris 250 - 400 kr',
     value: {
       high: 400,
       low: 250,
