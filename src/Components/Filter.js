@@ -45,15 +45,15 @@ const Filter = props => {
 
   const onChange = (data, event) => {
     event.persist();
-    const selected = options[event.target.value];
-    data.actions.set({ filter: { price: selected.value, selected: selected } });
+    data.actions.set({ filter: { price: options[event.target.value].value, selected: event.target.value } });
   };
+
   return (
     <AppConsumer>
       {data => {
         return (
           <div className='filter'>
-            <select ref={select} selected={data.state.filter.selected} onChange={onChange.bind(this, data)}>
+            <select ref={select} value={data.state.filter.selected} onChange={onChange.bind(this, data)}>
               {renderOptions()}
             </select>
             <ion-icon class='filter-dropdown--icon c-primary' name='ios-arrow-down' />

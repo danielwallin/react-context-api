@@ -59,7 +59,7 @@ const Home = withRouter(({ history }) => {
             <Header
               className='home-header'
               title='Hår'
-              left={<ion-icon class='header--back c-primary' name='ios-arrow-back'></ion-icon>}
+              left={<ion-icon class='header--back cursor c-primary' name='ios-arrow-back'></ion-icon>}
               right={<ion-icon class='header--filter c-primary' name='options'></ion-icon>}
             />
             <Filter value={`${data.state.filter.price.low} - ${data.state.filter.price.high}`} />

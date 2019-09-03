@@ -1,7 +1,7 @@
 .home {
     &-header {
         height: auto;
-        &--filter {
+        .header--filter {
             transform: rotate(-90deg);
         }
     }
@@ -16,7 +16,7 @@
             justify-content: space-between;
             align-items: flex-start;
             cursor: pointer;
-            padding: 2rem 0;            
+            padding: 2rem 0;
             & + * {
                 border-top: 1px solid var(--c_border);
             }

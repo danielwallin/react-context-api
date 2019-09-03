@@ -28,7 +28,7 @@ const Detail = withRouter(({ history }) => {
               className='detail-header'
               left={
                 <ion-icon
-                  class='header--back c-light'
+                  class='header--back cursor c-light'
                   onClick={() => {
                     history.push('/');
                   }}
