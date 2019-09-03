@@ -17,6 +17,8 @@ const Home = withRouter(({ history }) => {
     });
   };
 
+  const renderEmpty = () => <div className='saloon-list--empty'>Inga matchningar</div>;
+
   const renderList = data => {
     return (
       <div className='saloon-list'>
@@ -63,7 +65,10 @@ const Home = withRouter(({ history }) => {
               right={<ion-icon class='header--filter c-primary' name='options'></ion-icon>}
             />
             <Filter value={`${data.state.filter.price.low} - ${data.state.filter.price.high}`} />
-            <main className='home'>{renderList(filteredItems)}</main>
+            <main className='home'>
+              {filteredItems.length > 0 && renderList(filteredItems)}
+              {filteredItems.length == 0 && renderEmpty(filteredItems)}
+            </main>
           </React.Fragment>
         );
       }}
