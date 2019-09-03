@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { withRouter } from 'react-router-dom';
 import Header from '~/Components/Header';
 import { AppConsumer } from '~/Providers/RootProvider';
@@ -6,6 +6,8 @@ import { renderStars } from '~/Shared/utils';
 import './Detail.scss';
 
 const Detail = withRouter(({ history }) => {
+  useEffect(() => window.scroll(0, 0), []);
+
   const getData = (data, id) => {
     for (const item of data) {
       if (item.id == id) {
